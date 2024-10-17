@@ -49,7 +49,7 @@ Für die Implementierung von OAuth2 müssen die folgenden Schritte ausgeführt w
   Der callbackUrl-Parameter wird standardmäßig von NextAuth erstellt und kann genutzt werden, damit der Benutzer nach der Anmeldung wieder korrekt an die vorherige Seite weitergeleitet wird. Um dies sicherzustellen ist das Prüfen auf das Vorhandensein des Parameters ratsam. 
 
 ## Support
-Bei technischen Schwierigkeiten hung.ly@it-novum.com kontaktieren.  
+Bei technischen Schwierigkeiten (EMAIL) kontaktieren.  
 
 ## Roadmap
 - Umsetzen des Single Sign-On  
@@ -61,5 +61,4 @@ Bei technischen Schwierigkeiten hung.ly@it-novum.com kontaktieren.
 - Optimierung der AAA-Vorschrift für den Barrierefreien Zugriff, WCAG-Konformitätsstufen  
 
 ## Mitwirkende 
-- Michael.deuchert@it-novum.com, Head of Professional Services Big Data Analytics  
-- Alexander.keidel@it-novum.com, Head of Product & Alliance Big Data Analytics  
+-private 
