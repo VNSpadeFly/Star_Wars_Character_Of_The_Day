@@ -1,0 +1,95 @@
+.main {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; /* Viewport-Höhe */
+  padding: 20px;
+  text-align: center;
+  background: var(--overlay-color);
+}
+
+.heading {
+  font-size: 3rem; 
+  margin-bottom: 2rem; 
+  color: var(--primary-color);
+  font-weight: 700; 
+
+}
+
+.revealButton {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  
+  .revealButton:hover {
+    background-color: darkorange; /* Ändere die Hover-Farbe hier */
+  }
+
+.card {
+  background: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center; 
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.imageContainer {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.characterImage {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.detailsContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.characterName {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.characterDetails {
+  list-style: none;
+  padding: 0;
+  text-align: center; 
+}
+
+.characterDetails li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}

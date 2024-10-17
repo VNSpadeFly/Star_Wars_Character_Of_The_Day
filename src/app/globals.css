@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --background-color: #0c0f15;
+  --card-background: rgba(255, 255, 255, 0.1);
+  --card-border: rgba(255, 255, 255, 0.25);
+  --text-color: #ffffff;
+  --primary-color: #f0a500;
+  --secondary-color: #ffffff;
+  --overlay-color: rgba(0, 0, 0, 0.6);
+}
+ 
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url('/images/background/star-wars-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
