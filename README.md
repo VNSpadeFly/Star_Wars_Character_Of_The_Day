@@ -1,13 +1,12 @@
 # Case Study Frontend
 
 ## Name
-it-novum - Star Wars Character of the Day
+Star Wars Character of the Day
 
 ## Beschreibung
 Eine Website, die für jeden User einen Star Wars Charakter anzeigt abhängig vom Tag.  
 Im Hintergrund wird die SWAPI genutzt für die Fakten zu dem Charakter.  
 Die Website basiert auf next.js.  
-Diese Projekt wurde erstellt im Rahmen der Auschreibung der hvv.  
 
 ## Bild
 ![Bild von der Webseite mit einem Charakter und zusätzlichen Informationen](SWCotD.png)
