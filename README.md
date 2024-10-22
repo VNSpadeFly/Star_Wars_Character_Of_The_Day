@@ -1,4 +1,4 @@
-# Case Study Frontend
+# Random project
 
 ## Name
 Star Wars Character of the Day
